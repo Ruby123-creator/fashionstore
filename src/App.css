@@ -1,38 +1,78 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+}
+.App{
+    margin: 20px;
+    padding: 20px;
+}
+.Product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.Product-list .Products{
+    width: 300px;
+    margin: 10px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid rgb(209, 207, 207);
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 40px;
+    padding: 5px;
+    font-size:2.2rem ;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    /* display: flex; */
+    /* gap: 10px; */
+    /* justify-content: space-around; */
+   padding-right: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.addtocart button{
+    padding: 8px;
+    /* background-color: #1a9ac2; */
+    border: none;
+    border-radius: 3px;
+    font-size: 1.2rem;
+    color: white; 
+    margin: 10px 10px 10px 0; 
+    cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ .btn-disable{
+    background-color: grey;
+    cursor:not-allowed
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.btn-blue{
+    background-color:dodgerblue;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.cart{
+    display: flex;
+    justify-content: space-evenly;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cart-products{
+    display: flex;
+    width: 60%;
+    align-items: center;
+    justify-content: space-evenly;
+    column-gap: 10px;
+    margin: 15px;
+}
+.checkoutList{
+    width: 20%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
 }
