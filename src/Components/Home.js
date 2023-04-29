@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { useSelector,useDispatch } from 'react-redux'
 import { fetchData } from '../Redux/Actions/Apiactions'
 import { addToCart } from '../Redux/Actions/Cartaction'
