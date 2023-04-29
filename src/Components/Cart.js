@@ -10,7 +10,7 @@ function Cart() {
   let dispatch = useDispatch();
   return (
     <div>
-      <p>cart</p>
+      
       <div className="cartitems">
         {
           
